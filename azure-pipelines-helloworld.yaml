@@ -17,7 +17,7 @@ stages:
       runOnce:
         deploy:
           steps:
-          - script: echo "hello, dev world !!!"
+          - script: echo "hello, dev world asdasdasdasd!!!"
 - stage: qa_deploy
   jobs:
   - deployment: qa_deploy
